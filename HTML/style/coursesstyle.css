@@ -1,0 +1,29 @@
+main {
+    padding-bottom: 15px;
+}
+
+main h2 {
+    margin-right: 8%;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #353434;
+    padding: 5px;
+}
+  
+tr:nth-child(2n){
+    background-color: #dfe6e9;
+}
+ 
+th {
+    padding: 12px;
+    text-align: center;
+    background-color: #758b96;
+    color: white;
+}

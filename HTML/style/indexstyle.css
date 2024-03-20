@@ -1,0 +1,74 @@
+* {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+.logo {
+   padding: 1px;
+   width: 100px;
+   margin: 1px;
+   margin-left: 47%;
+}
+
+h1 {
+   font-size: 50px;
+   vertical-align: middle;
+   text-align: center;
+}
+
+ul {
+   display: block;
+   font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #476e82;
+}
+
+
+li {
+  float: left;
+  margin-left: 20%;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 8px 10px;
+   text-decoration: none;
+}
+ 
+li a:hover {
+   background-color: #4a4a4a;
+}
+
+main {
+   margin-left: 25%;
+   padding-bottom: 15px;
+}
+
+main h2 {
+   margin-right: 35%;
+   text-align: center;
+}
+
+/* Styling the first letter of "Explore" in figure caption*/
+figcaption::first-letter {
+   font-weight: bold;
+   font-style: italic;
+   font-variant: small-caps;
+}
+
+figure {
+   margin: 0;
+   padding: 2px;
+}
+
+footer {
+   text-align: center;
+   padding: 2px;
+   background-color: #476e82;
+   color: white;
+}
