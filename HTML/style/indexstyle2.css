@@ -59,3 +59,47 @@ footer {
    background-color: #476e82;
    color: white;
 }
+
+.dropdown button{
+   background-color: #3a5a69 ;
+   color: white;
+   cursor: pointer;
+   border: none;
+   width: 100px;
+   height: 50px;
+}
+
+.dropdown a{
+   display: block;
+   color: white;
+   text-decoration: none;
+   padding: 10px 15px;
+}
+
+.dropdown{
+   display: inline;
+}
+
+.dropdown .cta{
+   background-color: #476e82;
+   position: absolute;
+   min-width: 100px;
+   box-shadow: 2px 2px 3px;
+   display: none;
+}
+
+.dropdown:hover button{
+   background-color: #4a4a4a;
+}
+
+.dropdown:hover .cta{
+   display: block;
+}
+
+nav{
+   background-color: #3a5a69;
+}
+
+.dropdown a:hover{
+   background-color: #3a5a69;
+}
