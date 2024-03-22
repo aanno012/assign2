@@ -136,22 +136,54 @@ nav{
 
 /* Small screens (below 590px) */
 @media (max-width: 590px) {
-   header {
-       grid-template-columns: 1fr;
-       height: auto;
-   }
-   header nav {
-       justify-content: center;
-       margin: 10px 0;
-   }
+   /* Common adjustments for all pages */
    main {
        margin-left: 5%;
        margin-right: 5%;
    }
-   footer {
-       height: auto;
+   
+   header {
+       display: flex;
+       flex-direction: column; /* Display header items vertically */
+       align-items: center; /* Center align header items */
+   }
+   
+   header nav {
+       margin: 10px 0; /* Add margin to the navigation */
+   }
+
+   .hamburger-menu {
+       display: block; /* Ensure hamburger menu is visible */
+   }
+
+   nav {
+       display: flex;
+       flex-direction: column; /* Display menu items vertically */
+       align-items: center; /* Center align menu items */
+   }
+
+   nav a {
+       margin: 5px 0; /* Add margin to menu items */
+   }
+
+   /* Adjustments specific to the contact page */
+   main h2 {
+       text-align: center; /* Center the heading */
+       margin-bottom: 10px; /* Add margin below the heading */
+   }
+
+   article p {
+       margin-bottom: 10px; /* Add margin between paragraphs */
+   }
+
+   input[type="submit"],
+   input[type="reset"] {
+       margin-left: auto;
+       margin-right: auto;
+       display: block; /* Center align form buttons */
    }
 }
+
 
 /* Medium screens (590px - 790px) */
 @media (min-width: 591px) and (max-width: 790px) {
