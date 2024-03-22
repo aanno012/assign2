@@ -131,3 +131,36 @@ nav{
 .dropdown a:hover{
    background-color: #3a5a69;
 }
+
+/* Media Queries */
+
+/* Small screens (below 590px) */
+@media (max-width: 590px) {
+   main {
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   header {
+       grid-template-columns: 1fr;
+       height: auto;
+   }
+   header nav {
+       justify-content: center;
+       margin: 10px 0;
+   }
+   main {
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   footer {
+       height: auto;
+   }
+}
+
+/* Medium screens (590px - 790px) */
+@media (min-width: 591px) and (max-width: 790px) {
+   main {
+       margin-left: 15%;
+       margin-right: 15%;
+   }
+}
