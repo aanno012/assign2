@@ -59,8 +59,9 @@ footer {
     }
     article h2 {
         text-align: center; /* Center the heading */
+        margin-bottom: 10px; /* Add margin between headings */
     }
     article p {
-        margin-bottom: 10px; /* Add spacing between paragraphs */
+        margin-bottom: 10px; /* Add margin between paragraphs */
     }
 }
