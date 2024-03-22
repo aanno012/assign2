@@ -55,10 +55,8 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
-    article {
-        display: block; /* Change grid layout to block layout */
-    }
     article > div {
+        display: block; /* Change display to block */
         margin-bottom: 20px; /* Add margin to each course section */
     }
 }
