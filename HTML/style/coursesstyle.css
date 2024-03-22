@@ -57,12 +57,10 @@ footer {
     article > div {
         margin-bottom: 20px; /* Add margin to each course section */
     }
-}
-
-/* Medium screens (590px - 790px) */
-@media (min-width: 591px) and (max-width: 790px) {
-    main {
-        margin-left: 15%;
-        margin-right: 15%;
+    article h2 {
+        text-align: center; /* Center the heading */
+    }
+    article p {
+        margin-bottom: 10px; /* Add spacing between paragraphs */
     }
 }
