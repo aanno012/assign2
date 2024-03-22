@@ -6,8 +6,18 @@ main h2 {
 main {
     display: grid;
     grid-row: 2;
-    height: 70vh;
+    height: 75vh;
     padding-bottom: 15px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+article p {
+    text-align: center;
+
 }
 
 #body {
@@ -24,6 +34,8 @@ input[type="submit"] {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 10px;
+    position: relative;
+    left: 170px;
 }
 input[type="reset"] {
     background-color: #476e82; 
@@ -35,6 +47,8 @@ input[type="reset"] {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 10px;
+    position: relative;
+    left: 170px;
 }
 
 footer {

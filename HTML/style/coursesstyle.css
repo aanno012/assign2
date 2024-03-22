@@ -1,9 +1,21 @@
 main {
+    display: grid;
+    grid-row: 2;
     padding-bottom: 15px;
 }
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
 
-main h2 {
-    margin-right: 8%;
+article p, article h2  {
+    display: block;
+    grid-column: 1 / span 2;
+}
+
+article h2{
     text-align: center;
 }
 

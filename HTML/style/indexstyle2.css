@@ -49,7 +49,9 @@ header {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-row: 1;
-   height: 20vh;
+   height: 15vh;
+   background-color: #adc5d0;
+
 }
 
 header h1 {
@@ -60,8 +62,13 @@ header h1 {
 header nav {
    display: flex;
    justify-content: flex-end;
-   background-color: white;
+   background-color: #adc5d0;
    margin: 25px;
+   height: 50px;
+}
+
+nav button{
+   font-size: 20px;
 }
 
 main {
@@ -98,6 +105,7 @@ footer {
 
 .dropdown{
    display: inline;
+   text-align: center;
 }
 
 .dropdown .cta{
