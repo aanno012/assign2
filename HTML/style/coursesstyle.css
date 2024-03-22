@@ -71,11 +71,3 @@ footer {
     }
 }
 
-/* Medium screens (590px - 790px) */
-@media (min-width: 591px) and (max-width: 790px) {
-    /* Common adjustments for all pages */
-    main {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-}
