@@ -67,13 +67,11 @@ footer {
         height: auto;
     }
     /* Adjustments for course page */
-    .course-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    article {
+        display: block; /* Change grid layout to block layout */
     }
-    .course {
-        margin-bottom: 20px;
+    article > div {
+        margin-bottom: 20px; /* Add margin to each course section */
     }
 }
 
