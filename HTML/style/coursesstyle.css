@@ -45,41 +45,32 @@ footer {
 }
 /* Media Queries */
 
+/* Main styles for courses page */
+
+/* Media Queries */
+
 /* Small screens (below 590px) */
 @media (max-width: 590px) {
-    /* Adjustments for the main content area */
     main {
         margin-left: 5%;
         margin-right: 5%;
     }
-    
-    /* Adjustments for the header */
-    header {
-        display: flex;
-        flex-direction: column; /* Display header items vertically */
-        align-items: center; /* Center align header items */
+    article {
+        display: block; /* Change grid layout to block layout */
     }
-    
-    header nav {
-        margin: 10px 0; /* Add margin to the navigation */
-    }
-
-    /* Hamburger Menu Styling (if using) */
-    .hamburger-menu {
-        display: block; /* Ensure hamburger menu is visible */
-    }
-
-    /* Adjustments for the menu items (if not using hamburger menu) */
-    nav {
-        display: flex;
-        flex-direction: column; /* Display menu items vertically */
-        align-items: center; /* Center align menu items */
-    }
-
-    nav a {
-        margin: 5px 0; /* Add margin to menu items */
+    article > div {
+        margin-bottom: 20px; /* Add margin to each course section */
     }
 }
+
+/* Medium screens (590px - 790px) */
+@media (min-width: 591px) and (max-width: 790px) {
+    main {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
 /* Medium screens (590px - 790px) */
 @media (min-width: 591px) and (max-width: 790px) {
     /* Common adjustments for all pages */
