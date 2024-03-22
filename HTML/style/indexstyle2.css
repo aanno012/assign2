@@ -6,8 +6,7 @@
 .logo {
    padding: 1px;
    width: 100px;
-   margin: 1px;
-   margin-left: 47%;
+   margin-left: 10px;
 }
 
 h1 {
@@ -19,19 +18,11 @@ h1 {
 ul {
    display: block;
    font-size: 20px;
-}
-
-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #476e82;
-}
-
-li {
-  float: left;
-  margin-left: 20%;
 }
 
 li a {
@@ -46,6 +37,33 @@ li a:hover {
    background-color: #4a4a4a;
 }
 
+body {
+   display: grid;
+   grid-template-columns: 1fr ;
+   grid-template-rows: 1fr 1fr 1fr;
+   height: 100vh;
+   margin: 0;
+}
+
+header {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-row: 1;
+   height: 20vh;
+}
+
+header h1 {
+   align-self: start;
+   margin-top: 20px;
+}
+
+header nav {
+   display: flex;
+   justify-content: flex-end;
+   background-color: white;
+   margin: 25px;
+}
+
 main {
    margin-left: 25%;
    margin-right: 25%;
@@ -53,9 +71,11 @@ main {
 }
 
 footer {
+   display: grid;
+   grid-row: 3;
+   align-items: center;
    text-align: center;
    padding: 2px;
-   margin: 0;
    background-color: #476e82;
    color: white;
 }

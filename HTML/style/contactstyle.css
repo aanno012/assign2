@@ -4,6 +4,9 @@ main h2 {
 }
 
 main {
+    display: grid;
+    grid-row: 2;
+    height: 70vh;
     padding-bottom: 15px;
 }
 
@@ -32,4 +35,8 @@ input[type="reset"] {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 10px;
+}
+
+footer {
+    height: 10vh;
 }
