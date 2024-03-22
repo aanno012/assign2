@@ -51,22 +51,6 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
-    header {
-        grid-template-columns: 1fr;
-        height: auto;
-    }
-    header nav {
-        justify-content: center;
-        margin: 10px 0;
-    }
-    main {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    footer {
-        height: auto;
-    }
-    /* Adjustments for course page */
     article {
         display: block; /* Change grid layout to block layout */
     }
